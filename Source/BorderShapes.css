@@ -110,15 +110,13 @@ button,
 /*-----{Switches border shape}-----*/
 /*---------------------------------*/
 
-.themeDefault-24hCdX.sizeDefault-2YlOZr,
-.themeDefault-24hCdX.valueChecked-m-4IJZ,
-.themeClear-1EjkE4.valueUnchecked-2lU_20,
-.themeClear-1EjkE4.valueChecked-m-4IJZ,
-.valueUnchecked-2lU_20:after,
-.valueChecked-m-4IJZ.sizeDefault-2YlOZr:after,
+.container-3auIfb,
 .bd-switch,
 .bd-switch::after {
    border-radius: var(--border-radius-switches);
+}
+.slider-TkfMQL rect {
+   rx: var(--border-radius-switches);
 }
 
 /*-----------------------------------*/
@@ -270,6 +268,12 @@ button,
 .footer-2gL1pp {
    border-radius: 0 0 var(--border-radius-modals) var(--border-radius-modals);
 }
+.contentWrapper-3WC1ID {
+   border-radius: var(--border-radius-modals) 0 0 var(--border-radius-modals);
+}
+.inviteSplash-40aHus {
+   border-radius: 0 var(--border-radius-modals) var(--border-radius-modals) 0;
+}
 
 /*--------------------------------*/
 /*-----{Servers border shape}-----*/
@@ -281,6 +285,7 @@ button,
 }
 .avatarUploaderInner-3UNxY3,
 .iconSizeMedium-2OqPjI,
+.iconActiveLarge-2nzn9z,
 .iconActiveMedium-1UaEIR {
    border-radius: var(--border-radius-servers);
 }
@@ -500,15 +505,18 @@ button,
 .overlayTitle-8IcS01,
 .settingCard-3w2mVL,
 .bd-addon-list .bd-addon-card {
-   border-radius: var(--border-radius-banners);
+   border-radius: var(--border-radius-banners-1);
 }
 .connectionHeader-2MDqhu,
 .tierHeader-rlkkJd {
-   border-radius: var(--border-radius-banners) var(--border-radius-banners) 0 0;
+   border-radius: var(--border-radius-banners-1) var(--border-radius-banners-1) 0 0;
 }
 .cardFolder-28dwxo,
 .tierBody-x9kBBp {
-   border-radius: 0 0 var(--border-radius-banners) var(--border-radius-banners)
+   border-radius: 0 0 var(--border-radius-banners-1) var(--border-radius-banners-1)
+}
+.pill-1dHPfk {
+   border-radius: var(--border-radius-banners-2);
 }
 
 /*---------------------------------*/
@@ -542,7 +550,6 @@ button,
 
 .iconWrapper-lS1uig,
 .large-1DtyYQ,
-.medium-2wqF9d,
 .assetsLargeImage-eYwpTX,
 .spinner-2OWD4A,
 .spinner-3lb-NU,
@@ -551,6 +558,7 @@ button,
 }
 .assetsSmallImage-3_3Bzj,
 .small-xOVx-r,
+.medium-2wqF9d,
 .premiumLogo-1D3iJc,
 .content-s2SEQO ul li:before,
 .featureIcon-3p1TC_,
