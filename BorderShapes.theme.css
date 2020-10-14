@@ -32,11 +32,11 @@
    --border-radius-hypesquad: 50%; /*Border shape for HypeSquad icons in user settings. 50% for circle, 0% for square.*/
    --border-radius-icons-small: 2px; /*Border shape for small icons. 5px for circle, 0px for square.*/
    --border-radius-icons-large: 5px; /*Border shape for large icons. 25px for circle, 0px for square.*/
-   --border-radius-images: 10px; /*Border shape for images previews. 25px for circle, 0px for square.*/
-   --border-radius-videos: 15px; /*Border shape for videos previews. 25px for circle, 0px for square.*/
+   --border-radius-images: 5px; /*Border shape for images previews. 25px for circle, 0px for square.*/
+   --border-radius-videos: 5px; /*Border shape for videos previews. 25px for circle, 0px for square.*/
    --border-radius-audios: 5px; /*Border shape for audios previews. 25px for circle, 0px for square.*/
    --border-radius-gifs: 5px; /*Border shape for GIFs. 25px for circle, 0px for square.*/
-   --border-radius-embeds: 0px; /*Border shape for embeds. 25px for circle, 0px for square.*/
+   --border-radius-embeds: 2px; /*Border shape for embeds. 25px for circle, 0px for square.*/
    --border-radius-reactions: 3px; /*Border shape for reactions. 10px for circle, 0px for square.*/
    --border-radius-mentions: 2px; /*Border shape for mentions. 10px for circle, 0px for square.*/
    --border-radius-roles: 2px; /*Border shape for roles. 10px for circle, 0px for square.*/
@@ -45,7 +45,7 @@
    --border-radius-quotes: 2px; /*Border shape for quote icon. 2px for circle, 0px for square.*/
    --border-radius-search-highlights: 10px; /*Border shape for highlights in search results. 10px for circle, 0px for square.*/
    --border-radius-toasts: 5px; /*Border shape for toasts. 25px for circle, 0px for square.*/
-   --border-radius-tooltips: 0px; /*Border shape for tooltips. 25px for circle, 0px for square.*/
+   --border-radius-tooltips: 3px; /*Border shape for tooltips. 25px for circle, 0px for square.*/
    --border-radius-scrollbars: 10px; /*Border shape for scrollbars. 10px for circle, 0px for square.*/
    --border-radius-custom-css: 0px; /*Border shape for CustomCSS workspace. 25px for circle, 0px for square.*/
 }
