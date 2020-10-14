@@ -7,7 +7,7 @@
  * @invite jT9p33F
 **/
 
-@import url(https://raw.githack.com/JayWilson7/BorderShapes/master/Source/BorderShapes.css);
+@import url(https://jaywilson7.github.io/BorderShapes/Source/BorderShapes.css);
 
 :root {
    --border-radius-buttons-1: 5px; /*Border shape for group 1 buttons. 25px for circle, 0px for square.*/
