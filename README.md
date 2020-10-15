@@ -1,8 +1,14 @@
 # Description
 
-> **BorderShapes** by **JayWilson**
+> **BorderShapes** by **[JayWilson](https://github.com/JayWilson7)**
 
 Custom border shapes for elements.
+
+# Other themes
+
+> **RadialStatus** by **[Gibbu](https://github.com/Gibbu)**
+
+Changes the status icons to wrap around the avatar.
 
 # Features
 
