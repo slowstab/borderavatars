@@ -152,7 +152,8 @@ button,
 /*--------------------------------------*/
 
 .bar-3urHkF,
-.barInner-3NDaY_ {
+.barInner-3NDaY_,
+.userSettingsVoice-iwdUCU .inputSensitivityToggle-2LKb8o .sliderBar-3DezvM {
    border-radius: var(--borders-progress-bars) !important;
 }
 
