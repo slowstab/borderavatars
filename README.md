@@ -14,9 +14,9 @@ Custom border shapes for elements.
 
 # Previews
 
-![Preview_1](https://github.com/JayWilson7/BorderShapes/raw/master/Previews/Preview_1)
-![Preview_2](https://github.com/JayWilson7/BorderShapes/raw/master/Previews/Preview_2)
-![Preview_3](https://github.com/JayWilson7/BorderShapes/raw/master/Previews/Preview_3)
+![Preview_1](https://github.com/JayWilson7/BorderShapes/raw/master/Previews/Preview_1.png)
+![Preview_2](https://github.com/JayWilson7/BorderShapes/raw/master/Previews/Preview_2.png)
+![Preview_3](https://github.com/JayWilson7/BorderShapes/raw/master/Previews/Preview_3.png)
 
 More custom borders for elements in theme.
 
