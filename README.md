@@ -12,6 +12,14 @@ Custom border shapes for elements.
 4. New modern style for user statuses.
 5. Compatible with most other themes.
 
+# Previews
+
+![Preview_1](https://github.com/JayWilson7/BorderShapes/raw/master/Previews/Preview_1)
+![Preview_2](https://github.com/JayWilson7/BorderShapes/raw/master/Previews/Preview_2)
+![Preview_3](https://github.com/JayWilson7/BorderShapes/raw/master/Previews/Preview_3)
+
+More custom borders for elements in theme.
+
 # Setup
 
 You need **BetterDiscord** if you want use this themes:
