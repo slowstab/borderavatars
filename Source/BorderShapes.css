@@ -5,13 +5,10 @@
 button,
 .searchBar-6Kv8R2 .searchBarComponent-32dTOx,
 .option-96V44q,
-.message-2qnXI6.selected-2P5D_Z,
-.mouse-mode.full-motion .message-2qnXI6:hover,
 .button-1ZiXG9.selected-LCBEAU,
 .labelContainer-1BLJti,
 .tabBar-ZmDY9v .item-3HknzM,
 .card-3RzMcx,
-.layout-2DM8Md,
 .content-3at_AU,
 .side-8zPYf6 .item-PXvHYJ,
 .container-UC8Ug1,
@@ -24,7 +21,6 @@ button,
 .button-3Ijpww,
 .button-2PWmas,
 .wrapper-2aW0bm,
-.button-1ZiXG9:hover,
 .colorPickerSwatch-5GX3Ve.default-cS_caM,
 .colorPickerSwatch-5GX3Ve.custom-2SJn4n,
 .colorPickerSwatch-5GX3Ve,
@@ -74,9 +70,14 @@ button,
    mask: none;
    border-radius: var(--border-radius-buttons-1);
 }
-.contextMenuNub-3yOOYo {
-   border: 1px solid black;
-   border-radius: var(--border-radius-buttons-1);
+.button-1ZiXG9:hover {
+   border-radius: 0px;
+}
+.wrapper-2aW0bm :first-child {
+   border-radius: var(--border-radius-buttons-1) 0 0 var(--border-radius-buttons-1);
+}
+.wrapper-2aW0bm :last-child {
+   border-radius: 0 var(--border-radius-buttons-1) var(--border-radius-buttons-1) 0;
 }
 
 /*--------------------------------------*/
@@ -504,6 +505,7 @@ button,
 .border-3dQmSY,
 .overlayTitle-8IcS01,
 .settingCard-3w2mVL,
+.emptyCard-1RJw8n,
 .bd-addon-list .bd-addon-card {
    border-radius: var(--border-radius-banners-1);
 }
@@ -624,7 +626,7 @@ button,
 /*-----{Embeds border shape}-----*/
 /*-------------------------------*/
 
-.container-1ov-mD {
+.embedFull-2tM8-- {
    border-radius: var(--border-radius-embeds) !important;
 }
 
