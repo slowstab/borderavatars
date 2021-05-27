@@ -1,0 +1,399 @@
+/**
+ * @name BorderShapes
+ * @version 1.0.0
+ * @author JayWilson
+ * @authorLink https://github.com/JayWilson7
+ * @description Custom border shapes for elements.
+ * @website https://betterdiscordlibrary.com/users/JayWilson
+ * @source https://github.com/JayWilson7/BorderShapes
+ * @invite jcDvkVk
+**/
+
+/*------------------------------*/
+/*-----{Source Code Import}-----*/
+/*------------------------------*/
+
+/*@import url(https://jaywilson7.github.io/BorderShapes/Source/BorderShapes.css);*/
+
+/*---------------------------------------*/
+/*-----{Avatar Things Border Shapes}-----*/
+/*---------------------------------------*/
+
+#app-mount .wrapper-3t9DeA[style*="width: 80px;"],
+#app-mount .avatarUploaderInner-2EvNMg,
+#app-mount .avatarWrapperNormal-3wFMbf,
+#app-mount .voiceAvatar-14IynY,
+#app-mount .border-Jn5IOt,
+#app-mount .wrapper-2QE8vf.ringingIncoming-38YcLn:after,
+#app-mount .wrapper-2QE8vf.ringingOutgoing-mbXhhQ:after,
+#app-mount #AvatarHover {
+  border-radius: var(--borders-avatars-1);
+}
+#app-mount .wrapper-3t9DeA,
+#app-mount .avatar-1BDn8e,
+#app-mount .avatar-2daVqv {
+  border-radius: var(--borders-avatars-2);
+}
+#app-mount .replyAvatar-1K9Wmr,
+#app-mount .option-96V44q.user-O3Czj0 .displayAvatar-1wWlVM,
+#app-mount .avatar-3bWpYy,
+#app-mount .viewer-2fFR_X,
+#app-mount .embedAuthorIcon--1zR3L,
+#app-mount .embedFooterIcon-239O1f,
+#app-mount .iconWrapper-1GmWXs,
+#app-mount .avatar-3tNQiO,
+#app-mount .appAvatar-3bgkQ9,
+#app-mount .toast .toast-avatar {
+  border-radius: var(--borders-avatars-4);
+}
+#app-mount .avatarContainerMasked-PIJ-3L foreignObject {
+  mask: none;
+  border-radius: var(--borders-avatars-4);
+}
+#app-mount .voiceUserSummary-2X_2vp .avatarContainer-3CQrif,
+#app-mount .avatar-Uq3gXb {
+  box-shadow: 0 0 0 4px var(--borders-color-secondary);
+  border-radius: var(--borders-avatars-4);
+}
+#app-mount .partyMember-1CzxeX,
+#app-mount .partyAvatar-34PPpo {
+  -webkit-mask: none;
+  mask: none;
+  box-shadow: 0 0 0 4px var(--borders-color-secondary);
+  border-radius: var(--borders-avatars-4);
+}
+#app-mount .wrapper-3t9DeA .cursorDefault-dsQJ1n rect {
+  x: -48;
+  y: -52;
+}
+#app-mount .authBox-hW6HRx .wrapper-3t9DeA rect {
+  width: 120px;
+}
+#app-mount .avatar-3W3CeO {
+  top: 1px;
+  left: 1px;
+}
+#app-mount .header-QKLPzZ .wrapper-3t9DeA {
+  margin-right: 20px !important;
+}
+#app-mount .wrapper-3t9DeA svg:not(:root) {
+  overflow: visible;
+}
+#app-mount .wrapper-3t9DeA:before {
+  content: none;
+}
+#app-mount .wrapper-3t9DeA:not(.partyAvatar-34PPpo) foreignObject {
+  -webkit-mask: none;
+  mask: none;
+}
+#app-mount .wrapper-2QE8vf foreignObject {
+  mask: none;
+}
+#app-mount .wrapper-3t9DeA rect {
+  -webkit-mask: none;
+  mask: none;
+  display: block;
+  width: 100%;
+  height: 100%;
+  x: 0;
+  y: 0;
+  rx: var(--borders-avatars-2);
+  ry: var(--borders-avatars-2);
+  fill: transparent !important;
+  stroke-width: var(--status-width-2);
+}
+#app-mount .wrapper-3t9DeA[style*="width: 120px;"] rect {
+  width: 120px;
+  height: 120px;
+  pointer-events: none;
+  rx: var(--borders-avatars-3);
+  ry: var(--borders-avatars-3);
+  border-radius: var(--borders-avatars-3);
+  stroke-width: var(--status-width-1);
+}
+#app-mount .wrapper-3t9DeA[style*="width: 80px;"] {
+  position: relative;
+  margin-right: 0;
+}
+#app-mount .wrapper-3t9DeA[style*="width: 80px;"] rect {
+  width: 80px;
+  height: 80px;
+  pointer-events: none;
+  rx: var(--borders-avatars-1);
+  ry: var(--borders-avatars-1);
+  border-radius: var(--borders-avatars-1);
+  stroke-width: var(--status-width-1);
+}
+#app-mount .wrapper-3t9DeA[style*="width: 32px;"] rect {
+  width: 32px;
+  height: 32px;
+  x: -14.5;
+  y: -17;
+  position: relative;
+  border-radius: var(--borders-avatars-2);
+  z-index: 0;
+}
+#app-mount .wrapper-3t9DeA rect[x="28"] {
+  width: 40px;
+  height: 40px;
+  overflow: visible;
+}
+#app-mount .wrapper-3t9DeA svg[width="25"][height="15"] > rect {
+  rx: var(--borders-avatars-2);
+  ry: var(--borders-avatars-2);
+}
+#app-mount .wrapper-3t9DeA .mask-1l8v16 > rect[x="22"] {
+  x: 0;
+  y: 0;
+}
+#app-mount .wrapper-3t9DeA rect[x="16"] {
+  width: 24px;
+  height: 24px;
+  border-radius: var(--borders-avatars-2);
+}
+#app-mount .wrapper-3t9DeA .pointerEvents-2zdfdO[x="14.5"] {
+  opacity: var(--background-opacity-typing);
+  fill: rgb(0, 0, 0);
+  x: 1;
+  y: 1;
+  width: 30px;
+  height: 30px;
+  -webkit-clip-path: inset(
+    calc(var(--status-spacing-2) - 1px) calc(var(--status-spacing-2) - 1px)
+      round var(--borders-avatars-2)
+  );
+  clip-path: inset(
+    calc(var(--status-spacing-2) - 1px) calc(var(--status-spacing-2) - 1px)
+      round var(--borders-avatars-2)
+  );
+}
+#app-mount .wrapper-3t9DeA > svg > foreignObject img {
+  border-radius: var(--borders-avatars-2);
+}
+#app-mount .wrapper-3t9DeA > svg > foreignObject[height="80"] img {
+  border-radius: var(--borders-avatars-1);
+}
+#app-mount .wrapper-3t9DeA > svg > foreignObject[height="120"] img {
+  border-radius: var(--borders-avatars-3);
+}
+#app-mount .wrapper-3t9DeA > svg > foreignObject:not(:only-child) img {
+  -webkit-clip-path: inset(
+    calc(var(--status-spacing-2) + 1px) calc(var(--status-spacing-2) + 1px)
+      round var(--borders-avatars-2)
+  );
+  clip-path: inset(
+    calc(var(--status-spacing-2) + 1px) calc(var(--status-spacing-2) + 1px)
+      round var(--borders-avatars-2)
+  );
+}
+#app-mount
+  .wrapper-3t9DeA
+  > svg
+  > foreignObject:not(:only-child)[height="80"]
+  img {
+  -webkit-clip-path: inset(
+    calc(var(--status-spacing-1) + 1px) calc(var(--status-spacing-1) + 1px)
+      round var(--borders-avatars-1)
+  );
+  clip-path: inset(
+    calc(var(--status-spacing-1) + 1px) calc(var(--status-spacing-1) + 1px)
+      round var(--borders-avatars-1)
+  );
+}
+#app-mount
+  .wrapper-3t9DeA
+  > svg
+  > foreignObject:not(:only-child)[height="120"]
+  img {
+  -webkit-clip-path: inset(
+    calc(var(--status-spacing-1) + 1px) calc(var(--status-spacing-1) + 1px)
+      round var(--borders-avatars-3)
+  );
+  clip-path: inset(
+    calc(var(--status-spacing-1) + 1px) calc(var(--status-spacing-1) + 1px)
+      round var(--borders-avatars-3)
+  );
+}
+#app-mount .message-1PNnaP .mask-1l8v16 img {
+  -webkit-clip-path: circle(calc(19px - var(--status-spacing-1)));
+  clip-path: circle(calc(19px - var(--status-spacing-1)));
+}
+#app-mount .wrapper-3t9DeA foreignObject[mask*="mobile"]:before {
+  content: "";
+  background-color: rgb(0, 0, 0);
+  opacity: var(--status-opacity-mobile);
+  border-radius: var(--borders-avatars-2);
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  -webkit-clip-path: inset(
+    calc(var(--status-spacing-2) + 1px) calc(var(--status-spacing-2) + 1px)
+      round var(--borders-avatars-2)
+  );
+  clip-path: inset(
+    calc(var(--status-spacing-2) + 1px) calc(var(--status-spacing-2) + 1px)
+      round var(--borders-avatars-2)
+  );
+}
+#app-mount .wrapper-3t9DeA .pointerEvents-2zdfdO[x="14.5"] {
+  fill: rgb(0, 0, 0) !important;
+  opacity: var(--status-opacity-typing);
+  x: 1;
+  y: 1;
+  width: 30px;
+  height: 30px;
+  -webkit-clip-path: inset(
+    calc(var(--status-spacing-small) - 0.3px)
+      calc(var(--status-spacing-small) - 0.3px) round var(--borders-avatars)
+  );
+  clip-path: inset(
+    calc(var(--status-spacing-small) - 0.3px)
+      calc(var(--status-spacing-small) - 0.3px) round var(--borders-avatars)
+  );
+}
+#app-mount
+  .wrapper-3t9DeA[style*="width: 80px;"]
+  foreignObject[mask*="mobile"]:before {
+  border-radius: var(--borders-avatars-1);
+  -webkit-clip-path: inset(
+    calc(var(--status-spacing-1) + 1px) calc(var(--status-spacing-1) + 1px)
+      round var(--borders-avatars-1)
+  );
+  clip-path: inset(
+    calc(var(--status-spacing-1) + 1px) calc(var(--status-spacing-1) + 1px)
+      round var(--borders-avatars-1)
+  );
+}
+#app-mount
+  .wrapper-3t9DeA[style*="width: 120px;"]
+  foreignObject[mask*="mobile"]:before {
+  border-radius: var(--borders-avatars-1);
+  -webkit-clip-path: inset(
+    calc(var(--status-spacing-1) + 1px) calc(var(--status-spacing-1) + 1px)
+      round var(--borders-avatars-3)
+  );
+  clip-path: inset(
+    calc(var(--status-spacing-1) + 1px) calc(var(--status-spacing-1) + 1px)
+      round var(--borders-avatars-3)
+  );
+}
+#app-mount .wrapper-3t9DeA foreignObject[mask*="mobile"]:after {
+  content: "";
+  -webkit-mask: url('data:image/svg+xml; utf-8,<svg aria-hidden="true" focusable="false" data-prefix="fas" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M272 0H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h224c26.5 0 48-21.5 48-48V48c0-26.5-21.5-48-48-48zM160 480c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm112-108c0 6.6-5.4 12-12 12H60c-6.6 0-12-5.4-12-12V60c0-6.6 5.4-12 12-12h200c6.6 0 12 5.4 12 12v312z"></path></svg>')
+    center/8px no-repeat;
+  -webkit-mask-size: 30%;
+  background-color: var(--status-color-online);
+  visibility: var(--status-mobile-icon-display);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+#app-mount .avatarHint-1qgaV3 foreignObject {
+  -webkit-mask: none;
+  mask: none;
+}
+#app-mount .avatarHint-1qgaV3 .avatarHintInner-Dco91E {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 76px;
+  height: 76px;
+  border-radius: var(--borders-avatars-1);
+  -webkit-clip-path: inset(
+    calc(var(--status-spacing-1) - 1px) calc(var(--status-spacing-1) - 1px)
+      round var(--borders-avatars-1)
+  );
+  clip-path: inset(
+    calc(var(--status-spacing-1) - 1px) calc(var(--status-spacing-1) - 1px)
+      round var(--borders-avatars-1)
+  );
+}
+#app-mount .message-1PNnaP .mask-1l8v16 img {
+  -webkit-clip-path: circle(18px);
+  clip-path: circle(18px);
+}
+#app-mount .memberOffline-2lN7gt img {
+  -webkit-clip-path: none;
+  clip-path: none;
+}
+#app-mount .offline-3nJYBR img {
+  -webkit-clip-path: none;
+  clip-path: none;
+}
+#app-mount .wrapper-3t9DeA .dots-3Bkt3k circle:nth-child(1) {
+  cy: -8;
+  cx: -8.5;
+}
+#app-mount .wrapper-3t9DeA .dots-3Bkt3k circle:nth-child(2) {
+  cy: -8;
+  cx: -2.25;
+}
+#app-mount .wrapper-3t9DeA .dots-3Bkt3k circle:nth-child(3) {
+  cy: -8;
+  cx: 4;
+}
+#app-mount .wrapper-3t9DeA rect[fill="#43b581"],
+.wrapper-3t9DeA rect[fill="rgba(67, 181, 129, 1)"],
+.wrapper-3t9DeA rect[mask*="online"] {
+  stroke: var(--status-color-online);
+}
+#app-mount .wrapper-3t9DeA rect[fill="#faa61a"],
+.wrapper-3t9DeA rect[fill="rgba(250, 166, 26, 1)"],
+.wrapper-3t9DeA rect[mask*="idle"] {
+  stroke: var(--status-color-idle);
+}
+#app-mount .wrapper-3t9DeA rect[fill="#f04747"],
+.wrapper-3t9DeA rect[fill="rgba(240, 71, 71, 1)"],
+.wrapper-3t9DeA rect[mask*="dnd"] {
+  stroke: var(--status-color-dnd);
+}
+#app-mount .wrapper-3t9DeA rect[fill="#593695"],
+.wrapper-3t9DeA rect[mask*="streaming"] {
+  stroke: var(--status-color-streaming);
+}
+#app-mount .wrapper-3t9DeA rect[fill="#747f8d"],
+.wrapper-3t9DeA rect[mask*="offline"],
+.wrapper-3t9DeA rect[fill="NaN"] {
+  stroke: var(--status-color-offline);
+}
+#app-mount .wrapper-3t9DeA rect[mask="invisible"],
+.wrapper-3t9DeA rect[fill="rgba(116, 127, 141, 1)"] {
+  stroke: var(--status-color-invisible);
+}
+
+/*---------------------------*/
+/*-----{Basic Variables}-----*/
+/*---------------------------*/
+
+:root {
+  --borders-avatars-1: 0px; /*Border shapes for popout and modal avatars. 40px for circle, 0px for square*/
+  --borders-avatars-2: 0px; /*Border shapes for chat and memberlist avatars. 20px for circle, 0px for square*/
+  --borders-avatars-3: 0px; /*Border shapes for authtorization with QR-code. 60px for circle, 0px for square*/
+  --borders-avatars-4: 15px; /*Border shapes for other avatars. 15px for circle, 0px for square*/
+  --status-width-1: 2px; /*Border width for status for large avatars. Default - 2px*/
+  --status-width-2: 2px; /*Border width for status for small avatars. Default - 2px*/
+  --status-spacing-1: 1px; /*Spacing between statuses and large avatars. Default - 1px*/
+  --status-spacing-2: 1px; /*Spacing between statuses and small avatars. Default - 1px*/
+  --status-opacity-typing: 0.5; /*Background opacity for "Online via Mobile" statuses. Default - 0.6*/
+  --status-opacity-mobile: 0.5; /*Background opacity for "Typing" indicators. Default - 0.6*/
+  --status-color-online: #43b581; /*Color for "Online" statuses. Default - #43b581*/
+  --status-color-idle: #faa61a; /*Color for "Idle" statuses. Default - #faa61a*/
+  --status-color-dnd: #f04747; /*Color for "Do Not Disturb" statuses. Default - #f04747*/
+  --status-color-streaming: #593695; /*Color for "Streaming" statuses. Default - #593695*/
+  --status-color-offline: #747f8d; /*Color for "Offline" statuses. Default - #747f8d*/
+  --status-color-invisible: #747f8d; /*Color for "Invisible" statuses. This only works for your status. Default - #747f8d*/
+  --status-mobile-icon-display: visible; /*Display mode for "Online via Mobile" status icon. visible to show, hidden to hide*/
+}
+
+/*---------------------------*/
+/*-----{Extra Variables}-----*/
+/*---------------------------*/
+
+/*You can find extra variables here: https://github.com/JayWilson7/BorderShapes/blob/master/Source/BorderShapes.css*/

@@ -1,0 +1,9 @@
+{
+    "name": "BorderShapes",
+    "description": "Custom border shapes for elements.",
+    "version": "1.0.0",
+    "author": "JayWilson",
+    "theme": "BorderShapes.theme.css",
+    "consent": "false",
+    "license": "MIT"
+}
