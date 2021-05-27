@@ -339,7 +339,7 @@
   cy: -8;
   cx: 4;
 }
-#app-mount .wrapper-3t9DeA rect[fill="#43b581"],
+#app-mount .wrapper-3t9DeA rect[fill="#3ba55c"],
 .wrapper-3t9DeA rect[fill="rgba(67, 181, 129, 1)"],
 .wrapper-3t9DeA rect[mask*="online"] {
   stroke: var(--status-color-online);
@@ -349,7 +349,7 @@
 .wrapper-3t9DeA rect[mask*="idle"] {
   stroke: var(--status-color-idle);
 }
-#app-mount .wrapper-3t9DeA rect[fill="#f04747"],
+#app-mount .wrapper-3t9DeA rect[fill="#ed4245"],
 .wrapper-3t9DeA rect[fill="rgba(240, 71, 71, 1)"],
 .wrapper-3t9DeA rect[mask*="dnd"] {
   stroke: var(--status-color-dnd);
